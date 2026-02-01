@@ -11,6 +11,8 @@ Evidence-based injury prevention, diagnosis, and rehabilitation for cyclists.
 | Lower back pain | 30-50% prevalence in cyclists | Salai et al. 1999 (PMID: 10386387) |
 | Saddle-related | 50-91% report saddle discomfort | Guess et al. 2011 |
 | IT band syndrome | Reduced with proper bike fit | Holmes et al. 1993 (PMID: 8484659) |
+| AF risk in endurance athletes | 4× higher vs non-athletes | Abdulla & Nielsen 2009, meta-analysis (PMID: 33468513) |
+| Safe intensity threshold (men) | ≤6 hrs/week vigorous | Eur Heart J 2020 (PMID: 31773150) |
 
 ## Table of Contents
 1. [Injury Prevention Principles](#injury-prevention-principles)
@@ -21,6 +23,7 @@ Evidence-based injury prevention, diagnosis, and rehabilitation for cyclists.
 6. [Saddle-Related Issues](#saddle-related-issues)
 7. [Overtraining Syndrome](#overtraining-syndrome)
 8. [Return to Training Protocols](#return-to-training-protocols)
+9. [Kardiovaskulární rizika vytrvalostního tréninku](#kardiovaskulární-rizika-vytrvalostního-tréninku)
 
 ---
 

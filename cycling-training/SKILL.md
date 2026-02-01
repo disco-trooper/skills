@@ -14,7 +14,7 @@ description: |
 license: MIT
 metadata:
   author: disco-trooper
-  version: "1.0.0"
+  version: "1.1.0"
   keywords: cycling, FTP, power zones, intervals, periodization, indoor trainer, Zwift, TrainerRoad, VO2max, threshold, sweet spot, TSS, CTL
 ---
 

@@ -124,6 +124,20 @@ Day 9: Rest
 - DEXA scan every 2 years for high-volume cyclists
 - Adequate calcium and Vitamin D intake
 
+### Kardiovaskulární zdraví
+
+**Zvýšená pozornost u masters cyklistů:**
+- Riziko fibrilace síní roste s věkem + objemem tréninku
+- Strukturální změny srdce kumulativní po letech intenzivního tréninku
+- Symptomy mohou být subtilní (únava, snížená výkonnost)
+
+**Doporučení:**
+- EKG + echo před zahájením intenzivního tréninku (>8 hod/týden)
+- Opakované vyšetření každé 2-3 roky
+- Při symptomech (palpitace, dušnost, synkopa) okamžitě přerušit a konzultovat
+
+→ Detailní informace viz [injuries.md#kardiovaskulární-rizika-vytrvalostního-tréninku](injuries.md#kardiovaskulární-rizika-vytrvalostního-tréninku)
+
 ### Common Mistakes
 
 - Not enough recovery between hard sessions

@@ -389,6 +389,114 @@ Phase 4 (Week 7+): Full return
 
 ---
 
+## Kardiovaskulární rizika vytrvalostního tréninku
+
+### Klíčové výzkumy
+
+| Zjištění | Práh/Hodnota | Zdroj |
+|----------|--------------|-------|
+| Fibrilace síní u mužů - zvýšené riziko | >7 hod/týden intenzivní | Eur Heart J 2020 (PMID: 31773150) |
+| Fibrilace síní - optimální ochrana | 1,5–4 hod/týden | Múltiple meta-analýzy |
+| Riziko AF u vytrvalostních sportovců | 4× vyšší než nesportovci | BJSM 2021 (PMID: 33468513) |
+| Akutní troponin po závodech | Normalizace do 72h | Eur J Appl Physiol 2023 |
+| Pravá komora - přetížení | Koreluje s intenzitou (HR zóna 4) | La Gerche et al. 2012 (PMID: 22131352) |
+
+### Vztah dávka-odpověď (J-křivka)
+
+```
+Riziko AF
+    │
+    │     ╭─────────────╮
+    │    ╱               ╲
+    │   ╱                 ╲
+    │  ╱                   ╲────────
+    │ ╱
+────┼─────────────────────────────────► Objem tréninku
+    │ Sedavý  Doporučeno  Extrémní
+    │         (WHO)       (>10× WHO)
+```
+
+**Interpretace:**
+- Sedavý životní styl: Zvýšené riziko
+- WHO doporučení (150 min mírné/75 min intenzivní): Nejnižší riziko
+- Extrémní objemy (>7 hod intenzivní/týden): Riziko opět roste (u mužů)
+
+### Bezpečné limity (evidence-based)
+
+| Intenzita | Muži | Ženy |
+|-----------|------|------|
+| Vigorous/intenzivní (Z4+) | ≤6 hod/týden | Bez jasného limitu |
+| Celkový smíšený trénink | ≤10 hod/týden (konzervativní) | — |
+| Optimum pro ochranu | 1,5–4 hod/týden intenzivní | Až 6+ hod/týden bezpečné |
+
+**Poznámka:** Ženy nevykazují zvýšené riziko AF ani při vysokých objemech (Eur Heart J 2020).
+
+### Mechanismy poškození
+
+**Akutní (po náročném závodě/tréninku):**
+- Zvýšení troponinu (cTnI) - normalizace do 72h
+- Přechodná dysfunkce pravé komory
+- Prodloužení T1 relaxačního času (možný myokardiální edém)
+
+**Chronické (roky intenzivního tréninku):**
+- Dilatace pravé síně a komory
+- Fibróza myokardu (substrát pro arytmie)
+- Zvýšené riziko fibrilace síní
+
+### Varovné signály
+
+**Okamžitě konzultovat lékaře:**
+- Palpitace během nebo po tréninku
+- Neobvyklá dušnost neodpovídající zátěži
+- Synkopa (mdloby) při cvičení
+- Bolest na hrudi
+
+**Sledovat a vyhodnotit:**
+- Otoky dolních končetin
+- Nepřiměřená únava
+- Výkonnostní pokles bez zjevné příčiny
+- Nově vzniklá intolerance tepla
+
+### Screening doporučení
+
+| Věk/Profil | Doporučení |
+|------------|------------|
+| <35 let, rekreační | EKG před zahájením intenzivního tréninku |
+| 35-40 let, >8 hod/týden | EKG + echo, konzultace |
+| >40 let, aktivní | EKG + echo každé 2-3 roky |
+| >40 let, >10 hod/týden intenzivní | Kardiologická kontrola ročně |
+| Symptomatický (jakýkoliv věk) | Okamžité vyšetření |
+
+### Ochranné faktory
+
+**Snižují riziko:**
+- Polarizovaný trénink (80/20) - méně času v "šedé zóně"
+- Pravidelná regenerace a deload týdny
+- Dostatečný spánek (7-9 hodin)
+- Hydratace a elektrolyty
+
+### Praktická doporučení
+
+**Pro rekreační cyklisty (5-10 hod/týden):**
+1. Udržuj polarizovanou distribuci (80% Z1-2, 20% Z4+)
+2. Limituj čas v HR zóně 4+ na <4-6 hod/týden
+3. Zařaď pravidelné deload týdny (každé 3-4 týdny)
+4. Monitoruj HRV a klidovou TF pro známky přetížení
+
+**Pro masters cyklisty (>40 let):**
+1. Kardiologický screening před zahájením intenzivního tréninku
+2. EKG + echo každé 2-3 roky při >8 hod/týden
+3. Prodloužená regenerace mezi intenzivními tréninky (48-72h)
+4. Při nových symptomech okamžitě přerušit trénink a konzultovat
+
+**Pro závodníky s vysokým objemem (>15 hod/týden):**
+1. Roční kardiologická kontrola
+2. Sledování strukturálních změn pomocí echo
+3. Zvážit MR srdce při podezření na fibrózu
+4. Balance mezi výkonností a dlouhodobým zdravím
+
+---
+
 ## Related Files
 
 - [bike-fit.md](bike-fit.md) - Position optimization

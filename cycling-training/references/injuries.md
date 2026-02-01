@@ -11,8 +11,8 @@ Evidence-based injury prevention, diagnosis, and rehabilitation for cyclists.
 | Lower back pain | 30-50% prevalence in cyclists | Salai et al. 1999 (PMID: 10386387) |
 | Saddle-related | 50-91% report saddle discomfort | Guess et al. 2011 |
 | IT band syndrome | Reduced with proper bike fit | Holmes et al. 1993 (PMID: 8484659) |
-| AF risk in endurance athletes | 4× higher vs non-athletes | Abdulla & Nielsen 2009, meta-analysis (PMID: 33468513) |
-| Safe intensity threshold (men) | ≤6 hrs/week vigorous | Eur Heart J 2020 (PMID: 31773150) |
+| AF risk in endurance athletes | 4× higher vs non-athletes | Abdulla & Nielsen 2009, meta-analysis (PMID: 19633305) |
+| Safe intensity threshold (men) | ≤6 hrs/week vigorous | Eur Heart J 2020 (PMID: 31951255) |
 
 ## Table of Contents
 1. [Injury Prevention Principles](#injury-prevention-principles)
@@ -398,11 +398,11 @@ Phase 4 (Week 7+): Full return
 
 | Finding | Threshold/Value | Source |
 |---------|-----------------|--------|
-| Atrial fibrillation in men - increased risk | >7 hrs/week intense | Eur Heart J 2020 (PMID: 31773150) |
+| Atrial fibrillation in men - increased risk | >7 hrs/week intense | Eur Heart J 2020 (PMID: 31951255) |
 | Atrial fibrillation - optimal protection | 1.5–4 hrs/week | Multiple meta-analyses |
-| AF risk in endurance athletes | 4× higher than non-athletes | BJSM 2021 (PMID: 33468513) |
+| AF risk in endurance athletes | 4× higher than non-athletes | BJSM 2021 (PMID: 34253538) |
 | Acute troponin after races | Normalizes within 72h | Eur J Appl Physiol 2023 |
-| Right ventricle - overload | Correlates with intensity (HR zone 4) | La Gerche et al. 2012 (PMID: 22131352) |
+| Right ventricle - overload | Correlates with intensity (HR zone 4) | La Gerche et al. 2012 (PMID: 22160404) |
 
 ### Dose-Response Relationship (J-curve)
 

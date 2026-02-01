@@ -451,7 +451,7 @@ GE = (Power output × 60) / (VO2 × 20.9)
 
 ### Potential Maladaptation at Extreme Volumes
 
-**Research (La Gerche et al. 2012, PMID: 22131352):**
+**Research (La Gerche et al. 2012, PMID: 22160404):**
 Chronic extreme endurance training may lead to adverse remodeling in some individuals:
 
 | Structure | Change | Clinical Significance |

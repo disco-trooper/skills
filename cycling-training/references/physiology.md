@@ -449,28 +449,28 @@ GE = (Power output × 60) / (VO2 × 20.9)
 - 2-3 sessions/week can maintain fitness
 - Intensity more important than volume for maintenance
 
-### Potenciální maladaptace při extrémním objemu
+### Potential Maladaptation at Extreme Volumes
 
-**Výzkum (La Gerche et al. 2012, PMID: 22131352):**
-Chronický extrémní vytrvalostní trénink může u některých jedinců vést k nepříznivé remodelaci:
+**Research (La Gerche et al. 2012, PMID: 22131352):**
+Chronic extreme endurance training may lead to adverse remodeling in some individuals:
 
-| Struktura | Změna | Klinický význam |
-|-----------|-------|-----------------|
-| Pravá komora | Dilatace | Substrát pro arytmie |
-| Pravá síň | Zvětšení | Riziko fibrilace síní |
-| Myokard | Fokální fibróza | Arytmogenní substrát |
+| Structure | Change | Clinical Significance |
+|-----------|--------|----------------------|
+| Right ventricle | Dilation | Substrate for arrhythmias |
+| Right atrium | Enlargement | Risk of atrial fibrillation |
+| Myocardium | Focal fibrosis | Arrhythmogenic substrate |
 
-**Akutní změny po náročných závodech:**
-- Troponin I: Může stoupnout 50-100× (normalizace 24-72h)
-- T1 relaxační čas: Prodloužení (možný přechodný edém)
-- Pravá komora: Přechodná dysfunkce (normalizace 7-10 dní)
+**Acute changes after demanding races:**
+- Troponin I: May rise 50-100× (normalizes 24-72h)
+- T1 relaxation time: Prolongation (possible transient edema)
+- Right ventricle: Transient dysfunction (normalizes 7-10 days)
 
-**Klíčové faktory:**
-- Kumulativní "dávka" intenzivního tréninku za život
-- Individuální náchylnost (genetika)
-- Nedostatečná regenerace mezi intenzivními bloky
+**Key factors:**
+- Cumulative "dose" of intensive training over lifetime
+- Individual susceptibility (genetics)
+- Insufficient recovery between intensive blocks
 
-→ Praktická doporučení viz [injuries.md#kardiovaskulární-rizika-vytrvalostního-tréninku](injuries.md#kardiovaskulární-rizika-vytrvalostního-tréninku)
+→ See [injuries.md#cardiovascular-risks-of-endurance-training](injuries.md#cardiovascular-risks-of-endurance-training) for practical recommendations
 
 ---
 

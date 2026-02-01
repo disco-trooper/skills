@@ -23,7 +23,7 @@ Evidence-based injury prevention, diagnosis, and rehabilitation for cyclists.
 6. [Saddle-Related Issues](#saddle-related-issues)
 7. [Overtraining Syndrome](#overtraining-syndrome)
 8. [Return to Training Protocols](#return-to-training-protocols)
-9. [Kardiovaskulární rizika vytrvalostního tréninku](#kardiovaskulární-rizika-vytrvalostního-tréninku)
+9. [Cardiovascular Risks of Endurance Training](#cardiovascular-risks-of-endurance-training)
 
 ---
 

@@ -392,111 +392,111 @@ Phase 4 (Week 7+): Full return
 
 ---
 
-## Kardiovaskulární rizika vytrvalostního tréninku
+## Cardiovascular Risks of Endurance Training
 
-### Klíčové výzkumy
+### Key Research
 
-| Zjištění | Práh/Hodnota | Zdroj |
-|----------|--------------|-------|
-| Fibrilace síní u mužů - zvýšené riziko | >7 hod/týden intenzivní | Eur Heart J 2020 (PMID: 31773150) |
-| Fibrilace síní - optimální ochrana | 1,5–4 hod/týden | Múltiple meta-analýzy |
-| Riziko AF u vytrvalostních sportovců | 4× vyšší než nesportovci | BJSM 2021 (PMID: 33468513) |
-| Akutní troponin po závodech | Normalizace do 72h | Eur J Appl Physiol 2023 |
-| Pravá komora - přetížení | Koreluje s intenzitou (HR zóna 4) | La Gerche et al. 2012 (PMID: 22131352) |
+| Finding | Threshold/Value | Source |
+|---------|-----------------|--------|
+| Atrial fibrillation in men - increased risk | >7 hrs/week intense | Eur Heart J 2020 (PMID: 31773150) |
+| Atrial fibrillation - optimal protection | 1.5–4 hrs/week | Multiple meta-analyses |
+| AF risk in endurance athletes | 4× higher than non-athletes | BJSM 2021 (PMID: 33468513) |
+| Acute troponin after races | Normalizes within 72h | Eur J Appl Physiol 2023 |
+| Right ventricle - overload | Correlates with intensity (HR zone 4) | La Gerche et al. 2012 (PMID: 22131352) |
 
-### Vztah dávka-odpověď (J-křivka)
+### Dose-Response Relationship (J-curve)
 
 ```
-Riziko AF
-    │
-    │     ╭─────────────╮
-    │    ╱               ╲
-    │   ╱                 ╲
-    │  ╱                   ╲────────
-    │ ╱
-────┼─────────────────────────────────► Objem tréninku
-    │ Sedavý  Doporučeno  Extrémní
-    │         (WHO)       (>10× WHO)
+AF Risk
+    |
+    |      .---.
+    |     /     \
+    |    /       \
+    |   /         \_________
+    |  /
+----+---------------------------------> Training Volume
+    | Sedentary  WHO      Extreme
+    |         Recommended  (>10x WHO)
 ```
 
-**Interpretace:**
-- Sedavý životní styl: Zvýšené riziko
-- WHO doporučení (150 min mírné/75 min intenzivní): Nejnižší riziko
-- Extrémní objemy (>7 hod intenzivní/týden): Riziko opět roste (u mužů)
+**Interpretation:**
+- Sedentary lifestyle: Increased risk
+- WHO recommendations (150 min moderate/75 min intense): Lowest risk
+- Extreme volumes (>7 hrs intense/week): Risk increases again (in men)
 
-### Bezpečné limity (evidence-based)
+### Safe Limits (evidence-based)
 
-| Intenzita | Muži | Ženy |
-|-----------|------|------|
-| Vigorous/intenzivní (Z4+) | ≤6 hod/týden | Bez jasného limitu |
-| Celkový smíšený trénink | ≤10 hod/týden (konzervativní) | — |
-| Optimum pro ochranu | 1,5–4 hod/týden intenzivní | Až 6+ hod/týden bezpečné |
+| Intensity | Men | Women |
+|-----------|-----|-------|
+| Vigorous/intense (Z4+) | ≤6 hrs/week | No clear limit |
+| Total mixed training | ≤10 hrs/week (conservative) | — |
+| Optimal for protection | 1.5–4 hrs/week intense | Up to 6+ hrs/week safe |
 
-**Poznámka:** Ženy nevykazují zvýšené riziko AF ani při vysokých objemech (Eur Heart J 2020).
+**Note:** Women do not show increased AF risk even at high volumes (Eur Heart J 2020).
 
-### Mechanismy poškození
+### Mechanisms of Damage
 
-**Akutní (po náročném závodě/tréninku):**
-- Zvýšení troponinu (cTnI) - normalizace do 72h
-- Přechodná dysfunkce pravé komory
-- Prodloužení T1 relaxačního času (možný myokardiální edém)
+**Acute (after demanding race/training):**
+- Troponin elevation (cTnI) - normalizes within 72h
+- Transient right ventricular dysfunction
+- Prolonged T1 relaxation time (possible myocardial edema)
 
-**Chronické (roky intenzivního tréninku):**
-- Dilatace pravé síně a komory
-- Fibróza myokardu (substrát pro arytmie)
-- Zvýšené riziko fibrilace síní
+**Chronic (years of intensive training):**
+- Dilation of right atrium and ventricle
+- Myocardial fibrosis (substrate for arrhythmias)
+- Increased risk of atrial fibrillation
 
-### Varovné signály
+### Warning Signs
 
-**Okamžitě konzultovat lékaře:**
-- Palpitace během nebo po tréninku
-- Neobvyklá dušnost neodpovídající zátěži
-- Synkopa (mdloby) při cvičení
-- Bolest na hrudi
+**Consult a doctor immediately:**
+- Palpitations during or after training
+- Unusual dyspnea not matching exertion level
+- Syncope (fainting) during exercise
+- Chest pain
 
-**Sledovat a vyhodnotit:**
-- Otoky dolních končetin
-- Nepřiměřená únava
-- Výkonnostní pokles bez zjevné příčiny
-- Nově vzniklá intolerance tepla
+**Monitor and evaluate:**
+- Lower limb edema
+- Disproportionate fatigue
+- Performance decline without obvious cause
+- Newly developed heat intolerance
 
-### Screening doporučení
+### Screening Recommendations
 
-| Věk/Profil | Doporučení |
-|------------|------------|
-| <35 let, rekreační | EKG před zahájením intenzivního tréninku |
-| 35-40 let, >8 hod/týden | EKG + echo, konzultace |
-| >40 let, aktivní | EKG + echo každé 2-3 roky |
-| >40 let, >10 hod/týden intenzivní | Kardiologická kontrola ročně |
-| Symptomatický (jakýkoliv věk) | Okamžité vyšetření |
+| Age/Profile | Recommendation |
+|-------------|----------------|
+| <35 years, recreational | ECG before starting intensive training |
+| 35-40 years, >8 hrs/week | ECG + echo, consultation |
+| >40 years, active | ECG + echo every 2-3 years |
+| >40 years, >10 hrs/week intense | Annual cardiology check-up |
+| Symptomatic (any age) | Immediate examination |
 
-### Ochranné faktory
+### Protective Factors
 
-**Snižují riziko:**
-- Polarizovaný trénink (80/20) - méně času v "šedé zóně"
-- Pravidelná regenerace a deload týdny
-- Dostatečný spánek (7-9 hodin)
-- Hydratace a elektrolyty
+**Reduce risk:**
+- Polarized training (80/20) - less time in "grey zone"
+- Regular recovery and deload weeks
+- Adequate sleep (7-9 hours)
+- Hydration and electrolytes
 
-### Praktická doporučení
+### Practical Recommendations
 
-**Pro rekreační cyklisty (5-10 hod/týden):**
-1. Udržuj polarizovanou distribuci (80% Z1-2, 20% Z4+)
-2. Limituj čas v HR zóně 4+ na <4-6 hod/týden
-3. Zařaď pravidelné deload týdny (každé 3-4 týdny)
-4. Monitoruj HRV a klidovou TF pro známky přetížení
+**For recreational cyclists (5-10 hrs/week):**
+1. Maintain polarized distribution (80% Z1-2, 20% Z4+)
+2. Limit time in HR zone 4+ to <4-6 hrs/week
+3. Include regular deload weeks (every 3-4 weeks)
+4. Monitor HRV and resting HR for signs of overload
 
-**Pro masters cyklisty (>40 let):**
-1. Kardiologický screening před zahájením intenzivního tréninku
-2. EKG + echo každé 2-3 roky při >8 hod/týden
-3. Prodloužená regenerace mezi intenzivními tréninky (48-72h)
-4. Při nových symptomech okamžitě přerušit trénink a konzultovat
+**For masters cyclists (>40 years):**
+1. Cardiology screening before starting intensive training
+2. ECG + echo every 2-3 years if >8 hrs/week
+3. Extended recovery between intensive sessions (48-72h)
+4. Stop training immediately and consult if new symptoms appear
 
-**Pro závodníky s vysokým objemem (>15 hod/týden):**
-1. Roční kardiologická kontrola
-2. Sledování strukturálních změn pomocí echo
-3. Zvážit MR srdce při podezření na fibrózu
-4. Balance mezi výkonností a dlouhodobým zdravím
+**For high-volume racers (>15 hrs/week):**
+1. Annual cardiology check-up
+2. Monitor structural changes via echo
+3. Consider cardiac MRI if fibrosis suspected
+4. Balance between performance and long-term health
 
 ---
 

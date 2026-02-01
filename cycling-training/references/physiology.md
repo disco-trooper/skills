@@ -449,6 +449,29 @@ GE = (Power output × 60) / (VO2 × 20.9)
 - 2-3 sessions/week can maintain fitness
 - Intensity more important than volume for maintenance
 
+### Potenciální maladaptace při extrémním objemu
+
+**Výzkum (La Gerche et al. 2012, PMID: 22131352):**
+Chronický extrémní vytrvalostní trénink může u některých jedinců vést k nepříznivé remodelaci:
+
+| Struktura | Změna | Klinický význam |
+|-----------|-------|-----------------|
+| Pravá komora | Dilatace | Substrát pro arytmie |
+| Pravá síň | Zvětšení | Riziko fibrilace síní |
+| Myokard | Fokální fibróza | Arytmogenní substrát |
+
+**Akutní změny po náročných závodech:**
+- Troponin I: Může stoupnout 50-100× (normalizace 24-72h)
+- T1 relaxační čas: Prodloužení (možný přechodný edém)
+- Pravá komora: Přechodná dysfunkce (normalizace 7-10 dní)
+
+**Klíčové faktory:**
+- Kumulativní "dávka" intenzivního tréninku za život
+- Individuální náchylnost (genetika)
+- Nedostatečná regenerace mezi intenzivními bloky
+
+→ Praktická doporučení viz [injuries.md#kardiovaskulární-rizika-vytrvalostního-tréninku](injuries.md#kardiovaskulární-rizika-vytrvalostního-tréninku)
+
 ---
 
 ## Power Duration Curve

@@ -1,0 +1,14 @@
+{
+  "id": "i12345:2024-01-15",
+  "weight": 72.5,
+  "restingHR": 52,
+  "hrv": 45.2,
+  "sleepSecs": 28800,
+  "sleepQuality": 4,
+  "fatigue": 3,
+  "mood": 4,
+  "readiness": 4,
+  "ctl": 65.3,
+  "atl": 72.1,
+  "rampRate": 0.8
+}

@@ -8,6 +8,7 @@ Evidence-based training skills for AI agents.
 |-------|--------------|
 | [cycling-training](./cycling-training/) | Power zones, periodization, indoor training, nutrition for cyclists |
 | [hypertrophy-training](./hypertrophy-training/) | Volume, nutrition, exercises, recovery for muscle growth |
+| [intervals-icu](./intervals-icu/) | Intervals.icu API: wellness, activities, power curves, CTL/ATL/TSB |
 
 ## Install
 

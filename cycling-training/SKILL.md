@@ -1,26 +1,21 @@
 ---
 name: cycling-training
 description: |
-  Comprehensive evidence-based cycling training expertise, primarily focused on indoor trainer training. Use this skill when:
-  - Creating or reviewing training plans (periodization, mesocycles, microcycles)
-  - Analyzing training data (power, HR, TSS, CTL/ATL/TSB, power duration curves)
-  - Prescribing workouts and intervals (VO2max, threshold, sweet spot, endurance)
-  - Setting up power zones (Coggan, Seiler, iLevels, critical power model)
-  - Planning FTP tests and interpreting results
-  - Advising on nutrition, recovery, and supplementation for cyclists
-  - Indoor trainer training (ERG mode, cooling, heat management, Zwift/TrainerRoad) - PRIMARY FOCUS
-  - Periodization approaches (traditional, block, reverse, polarized, pyramidal)
-  - Special populations (masters 40+, women, time-crunched athletes)
-  - Heat acclimation and altitude training protocols
-  - Strength training integration for cyclists
-  - Overtraining prevention and recovery optimization
-  - Outdoor training execution (terrain, groups, weather, nutrition logistics)
-  Companion skill: Use `intervals-icu` skill for API data fetching/updating from intervals.icu platform.
+  Evidence-based cycling training for indoor trainers. Use when:
+  - Creating training plans (periodization, mesocycles)
+  - Analyzing power, HR, TSS, CTL/ATL/TSB data
+  - Prescribing intervals (VO2max, threshold, sweet spot)
+  - Setting power zones (Coggan, Seiler, critical power)
+  - Planning FTP tests
+  - Nutrition and recovery for cyclists
+  - Indoor training (ERG mode, Zwift, TrainerRoad)
+  - Special populations (masters, women, time-crunched)
+  Companion: intervals-icu skill for API data.
 license: MIT
 metadata:
   author: disco-trooper
   version: "1.0.0"
-  keywords: cycling, FTP, power zones, intervals, periodization, indoor trainer, Zwift, TrainerRoad, VO2max, threshold, sweet spot, TSS, CTL, polarized training, block periodization
+  keywords: cycling, FTP, power zones, intervals, periodization, indoor trainer, Zwift, TrainerRoad, VO2max, threshold, sweet spot, TSS, CTL
 ---
 
 # Cycling Training Skill

@@ -185,6 +185,7 @@ Load these based on specific need:
 | Psychology | [psychology.md](references/psychology.md) | Motivation, mental training, indoor strategies |
 | Bike fit & position | [bike-fit.md](references/bike-fit.md) | Position setup, indoor adjustments, pain issues |
 | Injuries & prevention | [injuries.md](references/injuries.md) | Pain diagnosis, prevention, return protocols |
+| Kardiovaskulární rizika | [injuries.md#kardiovaskulární-rizika](references/injuries.md#kardiovaskulární-rizika-vytrvalostního-tréninku) | High-volume training concerns, screening |
 | Racing tactics | [racing-tactics.md](references/racing-tactics.md) | Race strategy, pacing, drafting, criteriums |
 | Equipment & gear | [equipment.md](references/equipment.md) | Trainer, fan, power meter recommendations |
 | Quick reference | [quick-reference.md](references/quick-reference.md) | Common scenarios, metrics, race TSB targets |
@@ -334,6 +335,15 @@ Red flags:
 - Persistent fatigue >2 weeks
 - Illness frequency increase
 - Mood disturbances
+
+### Kardiovaskulární rizika (vysoký objem)
+
+Pro cyklisty s >8 hod/týden intenzivního tréninku:
+- Bezpečný limit intenzivní práce: ≤6 hod/týden
+- Screening: EKG + echo každé 2-3 roky (masters)
+- Varovné signály: palpitace, dušnost, synkopa
+
+→ Detaily viz [injuries.md](references/injuries.md#kardiovaskulární-rizika-vytrvalostního-tréninku)
 
 ## Workflow Guides
 

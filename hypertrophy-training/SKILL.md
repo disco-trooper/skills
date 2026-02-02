@@ -1,15 +1,6 @@
 ---
 name: hypertrophy-training
-description: |
-  Comprehensive evidence-based guide for muscle hypertrophy training. Covers periodization, nutrition, supplements, exercises, recovery, advanced techniques and programs. Use when:
-  - Creating training programs for muscle growth
-  - Analyzing workout volume, intensity, and frequency
-  - Providing nutrition recommendations for hypertrophy
-  - Answering bodybuilding and muscle-building questions
-  - Designing periodization schemes (linear, undulating, block)
-  - Recommending supplements with scientific backing
-  - Addressing recovery, sleep, and stress management
-  - Training special populations (beginners, advanced, older adults, women)
+description: Muscle hypertrophy training, nutrition, periodization, and recovery protocols.
 license: MIT
 metadata:
   author: disco-trooper

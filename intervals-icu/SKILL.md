@@ -1,8 +1,6 @@
 ---
 name: intervals-icu
-description: |
-  Intervals.icu API wrapper for fetching/updating wellness (HRV, sleep, weight, readiness), activities, power curves, and fitness metrics (CTL/ATL/TSB). Use for DATA operations; use cycling-training skill for ANALYSIS.
-  Triggers: intervals.icu, wellness data, HRV, power curves, activities, upload activity, morning check-in, weekly load, export wellness.
+description: Intervals.icu API for wellness, activities, power curves, and fitness metrics.
 license: MIT
 metadata:
   author: disco-trooper

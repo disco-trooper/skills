@@ -1,16 +1,6 @@
 ---
 name: cycling-training
-description: |
-  Evidence-based cycling training for indoor trainers. Use when:
-  - Creating training plans (periodization, mesocycles)
-  - Analyzing power, HR, TSS, CTL/ATL/TSB data
-  - Prescribing intervals (VO2max, threshold, sweet spot)
-  - Setting power zones (Coggan, Seiler, critical power)
-  - Planning FTP tests
-  - Nutrition and recovery for cyclists
-  - Indoor training (ERG mode, Zwift, TrainerRoad)
-  - Special populations (masters, women, time-crunched)
-  Companion: intervals-icu skill for API data.
+description: Cycling training plans, power zones, FTP testing, intervals, and load management.
 license: MIT
 metadata:
   author: disco-trooper

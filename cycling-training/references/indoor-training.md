@@ -22,7 +22,7 @@ Comprehensive guide for effective indoor/trainer training based on peer-reviewed
 | Indoor/outdoor FTP | High individual variability; training history matters | Stranzinger et al. 2024 (PMID: 38888564) |
 | Indoor cycling practices | 78% use fans; 6h10 winter vs 2h52 summer volume | Peeters et al. 2024 (PMID: 39465206) |
 | Heat acclimation | +5% VO2max cool, +8% in hot conditions | Lorenzo et al. 2010 (PMID: 20581716) |
-| Cooling effect | Fan enables ~15% higher sustained workload | Fernandez-Garcia et al. 2023 |
+| Cooling effect | Fan cooling improves sustainable workload | Fernandez et al. 2023 (PMID: 35025720) |
 
 ---
 
@@ -71,8 +71,8 @@ Comprehensive guide for effective indoor/trainer training based on peer-reviewed
 
 ### Cooling (Critical)
 
-**Fernandez et al. 2023 findings (fan at ~4 m/s):**
-- 15% higher workload capability
+**Fernandez et al. 2023 findings (fan at ~4 m/s; PMID: 35025720):**
+- Mean workload was ~15% higher with fan cooling (at the same HRR target)
 - 9% higher oxygen consumption
 - 14% greater energy expenditure (344 vs 302 kcals)
 - Lower thermal sensation, same RPE

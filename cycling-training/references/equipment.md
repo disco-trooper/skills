@@ -16,7 +16,7 @@ Evidence-based equipment guide for indoor and outdoor cycling training.
 | Factor | Priority | Impact on Training |
 |--------|----------|-------------------|
 | Power accuracy | Critical | Zone precision, progress tracking |
-| Cooling | Critical | +15% sustainable power (indoor) |
+| Cooling | Critical | ~+15% mean workload (lab protocol; setup-dependent) |
 | Comfort | High | Adherence, longer sessions |
 | Connectivity | Medium | Platform integration |
 
@@ -76,7 +76,7 @@ Evidence-based equipment guide for indoor and outdoor cycling training.
 
 ### Fans (Critical for Indoor Performance)
 
-**Research:** Fan at 3-4 m/s enables ~15% higher sustainable power (Fernandez et al. 2023)
+**Research:** Fan at 3-4 m/s can improve sustainable indoor power (Fernandez et al. 2023; PMID: 35025720). In that lab protocol, mean workload was ~15% higher with fan cooling at the same HRR target.
 
 | Tier | Models | Airflow | Price | Notes |
 |------|--------|---------|-------|-------|

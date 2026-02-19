@@ -394,6 +394,8 @@ Phase 4 (Week 7+): Full return
 
 ## Cardiovascular Risks of Endurance Training
 
+> **Medical disclaimer:** Educational content only. This is not medical advice. If you have symptoms (palpitations, syncope, chest pain, unusual dyspnea) or risk factors, consult a clinician and follow local guidelines.
+
 ### Key Research
 
 | Finding | Threshold/Value | Source |
@@ -424,7 +426,7 @@ AF Risk
 - WHO recommendations (150 min moderate/75 min intense): Lowest risk
 - Extreme volumes (>7 hrs intense/week): Risk increases again (in men)
 
-### Safe Limits (evidence-based)
+### Practical Heuristics (context-dependent)
 
 | Intensity | Men | Women |
 |-----------|-----|-------|
@@ -460,7 +462,7 @@ AF Risk
 - Performance decline without obvious cause
 - Newly developed heat intolerance
 
-### Screening Recommendations
+### Screening Considerations (discuss with a clinician)
 
 | Age/Profile | Recommendation |
 |-------------|----------------|

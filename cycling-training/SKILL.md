@@ -4,7 +4,8 @@ description: Cycling training plans, power zones, FTP testing, intervals, and lo
 license: MIT
 metadata:
   author: disco-trooper
-  version: "1.1.0"
+  version: "1.1.1"
+  last_updated: "2026-02-19"
   keywords: cycling, FTP, power zones, intervals, periodization, indoor trainer, Zwift, TrainerRoad, VO2max, threshold, sweet spot, TSS, CTL
 ---
 
@@ -28,6 +29,26 @@ Evidence-based cycling training guidance grounded in peer-reviewed sports scienc
 
 *For detailed zone models (Seiler 3-zone, iLevels, HR zones, Training Intensity Distribution), see [zones-and-testing.md](references/zones-and-testing.md)*
 
+### Scripts (Quick Reference)
+
+If this skill is installed locally, set `SKILLS_DIR` to the directory your tool uses for skills.
+
+```bash
+# Example only — adjust to your environment:
+SKILLS_DIR="<path-to-your-skills-dir>"
+
+python3 "$SKILLS_DIR/cycling-training/scripts/calculate_zones.py" 250 --model coggan
+python3 "$SKILLS_DIR/cycling-training/scripts/calculate_zones.py" 250 --model seiler --json
+python3 "$SKILLS_DIR/cycling-training/scripts/calculate_tss.py" 250 230 60 --json
+python3 "$SKILLS_DIR/cycling-training/scripts/analyze_week.py" 450 65 72 --prev-week-tss 400 --daily-tss 60,80,0,70,90,80,70 --json
+```
+
+Test suite (stdlib only):
+
+```bash
+python3 -m unittest discover -s "$SKILLS_DIR/cycling-training/scripts/tests" -p 'test_*.py' -v
+```
+
 ## Companion Skills
 
 ### intervals-icu (Data API)
@@ -47,9 +68,9 @@ For fetching and updating data from intervals.icu platform, use the `intervals-i
 ```
 
 **Common workflow:**
-1. Fetch data: `~/.claude/skills/intervals-icu/scripts/api.sh wellness today`
+1. Fetch data: `$SKILLS_DIR/intervals-icu/scripts/api.sh wellness today`
 2. Analyze with this skill (zone calculation, load management)
-3. Update: `~/.claude/skills/intervals-icu/scripts/api.sh wellness-update today '{"readiness": 4}'`
+3. Update: `$SKILLS_DIR/intervals-icu/scripts/api.sh wellness-update today '{"readiness": 4}'`
 
 ---
 
@@ -58,14 +79,14 @@ For fetching and updating data from intervals.icu platform, use the `intervals-i
 **Critical Setup:**
 | Component | Requirement | Why |
 |-----------|-------------|-----|
-| Fan | 3-4 m/s airflow at torso | 15% higher sustainable power |
+| Fan | Strong airflow at torso (as much as practical) | Better cooling and higher sustainable indoor power |
 | Temperature | <20°C (68°F) | Prevents overheating |
 | FTP | Test indoors separately | 5-10% lower than outdoor |
 
 **Indoor FTP Adjustment:**
 - Use 95% of outdoor FTP OR
 - Perform dedicated indoor FTP test (recommended)
-- TrainerRoad AI FTP Detection is reliable
+- TrainerRoad AI FTP Detection can be a useful estimate; validate with workouts/tests
 
 **ERG vs Slope Mode:**
 | Mode | Use When | Benefit |
@@ -123,8 +144,10 @@ VI = NP / AP
 CTL = 42-day exponentially weighted average of TSS
 ATL = 7-day exponentially weighted average of TSS
 TSB = CTL - ATL
-ACWR = ATL / CTL (sweet spot: 0.8-1.3)
+ACWR = ATL / CTL (heuristic range often cited: ~0.8-1.3)
 ```
+
+**ACWR note:** ACWR is widely used, but it is also debated in the literature. Treat it as a heuristic and combine it with context (sleep, illness, soreness, performance trends), not as a single decision signal.
 
 ### Race Day TSB Targets
 | Event Type | Optimal TSB |
@@ -235,7 +258,7 @@ Load these based on specific need:
 2. WEEKLY level
    - Total TSS vs target
    - Intensity distribution (TID)
-   - ACWR (keep 0.8-1.3)
+   - ACWR (heuristic; avoid sharp spikes)
 
 3. BLOCK/PHASE level
    - CTL trend
@@ -328,12 +351,12 @@ Red flags:
 
 ### Cardiovascular Risks (High Volume)
 
-For cyclists with >8 hrs/week of intensive training:
-- Safe limit for intense work: ≤6 hrs/week
-- Screening: ECG + echo every 2-3 years (masters)
-- Warning signs: palpitations, dyspnea, syncope
+**Medical disclaimer:** Educational only — not medical advice. If you have symptoms or risk factors, seek medical evaluation.
 
-→ See [injuries.md](references/injuries.md#cardiovascular-risks-of-endurance-training) for details
+Red flags to take seriously:
+- Palpitations, unusual dyspnea, syncope, chest pain
+
+→ See [injuries.md](references/injuries.md#cardiovascular-risks-of-endurance-training) for details and sources
 
 ## Workflow Guides
 
@@ -387,7 +410,7 @@ When analyzing completed training data:
    - Compare HR:power decoupling on endurance rides
 
 3. **Load Management**
-   - Calculate ACWR (keep 0.8-1.3)
+   - Calculate ACWR (heuristic; watch for spikes)
    - Monitor CTL ramp rate (<7 pts/week)
    - Watch for excessive negative TSB (<-30)
 

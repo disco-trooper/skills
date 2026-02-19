@@ -14,10 +14,10 @@ Metrics calculated:
 - Ramp Rate = weekly CTL change estimate
 - Monotony & Strain (Foster 1998) - requires --daily-tss
 
-Evidence-based thresholds:
-- ACWR: 0.8-1.3 optimal (Gabbett 2016, Hulin 2014)
-- Ramp rate: 3-5 conservative, 5-8 moderate, >10 aggressive (Banister 1991)
-- Monotony >2.0 = injury risk (Foster 1998)
+Heuristic thresholds (interpret cautiously; context matters):
+- ACWR: 0.8-1.3 often-cited "optimal" band (widely used; debated)
+- Ramp rate: <3 conservative, 3-5 moderate, 5-8 aggressive, >8 excessive
+- Monotony >2.0 can indicate elevated risk (Foster 1998)
 """
 
 import argparse
@@ -150,7 +150,7 @@ def get_tsb_status(tsb: float) -> dict:
 
 
 def get_ramp_status(ramp: float) -> dict:
-    """Get ramp rate interpretation based on Banister 1991."""
+    """Get ramp rate interpretation (heuristic)."""
     if ramp < 3:
         return {
             "status": "CONSERVATIVE",

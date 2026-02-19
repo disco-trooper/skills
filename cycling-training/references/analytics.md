@@ -15,7 +15,7 @@ Guide to training data analysis, metrics, and platforms.
 
 | Topic | Finding | Source |
 |-------|---------|--------|
-| Impulse-response model | Basis for CTL/ATL/TSB metrics | Banister 1991 (book) |
+| Impulse-response model | Basis for CTL/ATL/TSB metrics | Banister (book) |
 | ACWR and injury | Sweet spot 0.8-1.3 for injury prevention | Hulin et al. 2016 (PMID: 26511006) |
 | Training load | High chronic loads are protective | Gabbett 2016 (PMID: 26758673) |
 | Training load paradox | High chronic loads protective when built gradually | Gabbett 2020 (PMID: 32728962) |

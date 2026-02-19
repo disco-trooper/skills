@@ -379,7 +379,7 @@ class TestGetTSBStatus(unittest.TestCase):
 
 
 class TestGetRampStatus(unittest.TestCase):
-    """Test ramp rate status interpretation based on Banister 1991."""
+    """Test ramp rate status interpretation (heuristic)."""
 
     def test_ramp_conservative(self):
         """Ramp < 3 = CONSERVATIVE."""

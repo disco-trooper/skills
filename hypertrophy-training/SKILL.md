@@ -4,8 +4,8 @@ description: Muscle hypertrophy training, nutrition, periodization, and recovery
 license: MIT
 metadata:
   author: disco-trooper
-  version: "1.1.0"
-  last_updated: "2026-02-01"
+  version: "1.1.1"
+  last_updated: "2026-02-19"
 ---
 
 # Evidence-Based Hypertrophy Training Guide
@@ -410,17 +410,17 @@ The `scripts/calculators.py` script provides common training calculations:
 
 | Command | Description | Example |
 |---------|-------------|---------|
-| `tdee` | TDEE calculation (Mifflin-St Jeor) | `calculators.py tdee 80 180 30 m moderate` |
-| `macros` | Macronutrient targets by goal | `calculators.py macros 80 2500 bulk` |
-| `1rm` | Estimate 1RM from submaximal lift | `calculators.py 1rm 100 8` |
-| `protein` | Protein needs by status | `calculators.py protein 80 bulk intermediate` |
-| `weekly-volume` | Volume assessment vs landmarks | `calculators.py weekly-volume 6 2` |
-| `volume` | Training volume metrics | `calculators.py volume 4 10 80` |
-| `rir` | RIR to %1RM conversion | `calculators.py rir 2` |
+| `tdee` | TDEE calculation (Mifflin-St Jeor) | `python3 scripts/calculators.py tdee 80 180 30 m moderate` |
+| `macros` | Macronutrient targets by goal | `python3 scripts/calculators.py macros 80 2500 bulk` |
+| `1rm` | Estimate 1RM from submaximal lift | `python3 scripts/calculators.py 1rm 100 8` |
+| `protein` | Protein needs by status | `python3 scripts/calculators.py protein 80 bulk intermediate` |
+| `weekly-volume` | Volume assessment vs landmarks | `python3 scripts/calculators.py weekly-volume 6 2` |
+| `volume` | Training volume metrics | `python3 scripts/calculators.py volume 4 10 80` |
+| `rir` | RIR to %1RM conversion | `python3 scripts/calculators.py rir 2` |
 
 **Usage:**
 ```bash
-python ~/.claude/skills/hypertrophy-training/scripts/calculators.py [command] [args]
+python3 scripts/calculators.py <command> [args]
 ```
 
 ---
@@ -445,7 +445,7 @@ python ~/.claude/skills/hypertrophy-training/scripts/calculators.py [command] [a
 4. Wolf M et al. (2023). Partial vs full ROM resistance training: A systematic review and meta-analysis. Int J Strength Cond. DOI: 10.47206/ijsc.v3i1.182
 5. Roberts LA et al. (2015). Cold water immersion and muscle hypertrophy. J Physiol. PMID: 26174323
 6. Schoenfeld BJ et al. (2010-2022). Multiple meta-analyses on hypertrophy mechanisms.
-7. Roig M et al. (2009). Eccentric vs concentric training effects. Br J Sports Med. PMID: 18812414
+7. Roig M et al. (2009). The effects of eccentric versus concentric resistance training on muscle strength and mass in healthy adults: a systematic review with meta-analysis. Br J Sports Med. PMID: 18981046
 8. Wackerhage H et al. (2019). Molecular mechanisms of muscle hypertrophy. Eur J Sport Sci. PMID: 30741116
 9. Kassiano W et al. (2023). Greater gastrocnemius muscle hypertrophy after partial ROM training at long muscle lengths. J Strength Cond Res. PMID: 37015016
 10. Kassiano W et al. (2023). Which ROMs lead to Rome? Systematic review of ROM effects on hypertrophy. J Strength Cond Res. PMID: 36662126
@@ -454,16 +454,21 @@ python ~/.claude/skills/hypertrophy-training/scripts/calculators.py [command] [a
 13. Zourdos MC et al. (2016). DUP vs traditional periodization for strength gains. J Strength Cond Res. PMID: 26398700
 14. Grgic J et al. (2018). Effects of training frequency for muscular strength: A systematic review and meta-analysis. Sports Med. PMID: 29470825
 15. Wolf M et al. (2025). Lengthened partial ROM resistance training is equally effective as full ROM training. PeerJ. PMID: 39959841
-16. Multi-Site Cluster Randomized Controlled Trial (2025). Effects of full vs lengthened partial ROM training: A multi-site trial with N=297. SportRxiv. DOI: 10.51224/SRXIV.485
-17. Pelland JC et al. (2025). Resistance training volume-hypertrophy dose-response meta-regression. J Strength Cond Res.
+16. Wolf M et al. (2024). The effects of lengthened-partial range of motion resistance training of the limbs on arm and thigh muscle cross-sectional area: a multi-site cluster trial (preprint). SportRxiv. DOI: 10.51224/SRXIV.485
+17. Pelland JC et al. (2025). The Resistance Training Dose Response: Meta-Regressions Exploring the Effects of Weekly Volume and Frequency on Muscle Hypertrophy and Strength Gains. Sports Med. PMID: 41343037
 18. Piñero A et al. (2024). Throwing cold water on muscle growth: A systematic review with meta-analysis of the effects of postexercise cold water immersion on resistance training-induced hypertrophy. Eur J Sport Sci. 24(2):177-189. PMID: 38621735
-19. IJSM Regional Hypertrophy Review (2025). Muscle length influences regional hypertrophy. Int J Sports Med. PMID: 40570881
+19. Does Muscle Length Influence Regional Hypertrophy? A Systematic Review and Meta-Analysis. Int J Sports Med. PMID: 40570881
 
 > **Note:** All citations are verifiable via PubMed or DOI.
 
 ---
 
 ## Changelog
+
+### v1.1.1 (2026-02-19)
+- Fixed calculators usage to use python3 + relative path
+- Corrected Roig 2009 PMID
+- Corrected/updated dose-response and ROM citations (Pelland/SportRxiv/IJSM)
 
 ### v1.1.0 (2026-02-01)
 - Fixed Piñero 2024 citation (correct journal: Eur J Sport Sci)

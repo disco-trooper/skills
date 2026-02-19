@@ -22,3 +22,6 @@ htmlcov/
 .env
 .venv/
 venv/
+
+# Docs
+docs/plans/

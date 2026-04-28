@@ -1,0 +1,4 @@
+interface:
+  display_name: "Cycling Training"
+  short_description: "Cycling plans, zones, and load analysis"
+  default_prompt: "Use $cycling-training to build a cycling training plan with FTP zones and weekly load targets."

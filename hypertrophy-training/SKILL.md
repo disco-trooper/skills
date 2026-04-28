@@ -1,11 +1,6 @@
 ---
 name: hypertrophy-training
-description: Muscle hypertrophy training, nutrition, periodization, and recovery protocols.
-license: MIT
-metadata:
-  author: disco-trooper
-  version: "1.1.1"
-  last_updated: "2026-02-19"
+description: Evidence-based muscle hypertrophy training, nutrition, exercise selection, periodization, recovery, supplements, and progress tracking. Use when Codex needs to build strength-training programs, set volume or RIR targets, choose exercises, troubleshoot plateaus, calculate macros/TDEE, or answer bodybuilding and muscle-growth questions.
 ---
 
 # Evidence-Based Hypertrophy Training Guide
@@ -460,22 +455,3 @@ python3 scripts/calculators.py <command> [args]
 19. Does Muscle Length Influence Regional Hypertrophy? A Systematic Review and Meta-Analysis. Int J Sports Med. PMID: 40570881
 
 > **Note:** All citations are verifiable via PubMed or DOI.
-
----
-
-## Changelog
-
-### v1.1.1 (2026-02-19)
-- Fixed calculators usage to use python3 + relative path
-- Corrected Roig 2009 PMID
-- Corrected/updated dose-response and ROM citations (Pelland/SportRxiv/IJSM)
-
-### v1.1.0 (2026-02-01)
-- Fixed Piñero 2024 citation (correct journal: Eur J Sport Sci)
-- Added version and last_updated metadata
-- Updated lengthened partials section with 2025 research consensus
-
-### v1.0.0 (Initial)
-- Complete hypertrophy training reference system
-- 17 reference files covering all major topics
-- Calculator scripts with tests

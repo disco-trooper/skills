@@ -1,0 +1,4 @@
+interface:
+  display_name: "Hypertrophy Training"
+  short_description: "Muscle-growth training and nutrition"
+  default_prompt: "Use $hypertrophy-training to create an evidence-based muscle-growth program with volume, RIR, and nutrition targets."

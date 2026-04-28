@@ -1,12 +1,6 @@
 ---
 name: cycling-training
-description: Cycling training plans, power zones, FTP testing, intervals, and load management.
-license: MIT
-metadata:
-  author: disco-trooper
-  version: "1.1.1"
-  last_updated: "2026-02-19"
-  keywords: cycling, FTP, power zones, intervals, periodization, indoor trainer, Zwift, TrainerRoad, VO2max, threshold, sweet spot, TSS, CTL
+description: Cycling training plans, power zones, FTP testing, intervals, periodization, indoor/outdoor training, race preparation, training-load analysis, and recovery guidance. Use when Codex needs to design cycling workouts, calculate FTP-based zones or TSS, analyze training data, manage CTL/ATL/TSB, or answer cyclist training questions.
 ---
 
 # Cycling Training Skill

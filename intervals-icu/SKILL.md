@@ -1,10 +1,6 @@
 ---
 name: intervals-icu
-description: Intervals.icu API for wellness, activities, power curves, and fitness metrics.
-license: MIT
-metadata:
-  author: disco-trooper
-  version: "1.0.0"
+description: Intervals.icu API workflows for fetching and updating wellness, activities, fitness metrics, events, zones, power curves, activity streams, and uploads. Use when Codex needs to call Intervals.icu, prepare authenticated API commands, export athlete data, debug API responses, or pair platform data with cycling-training analysis.
 ---
 
 # Intervals.icu API Skill
@@ -37,9 +33,12 @@ API wrapper for intervals.icu cycling training platform. Designed to work alongs
 export INTERVALS_API_KEY="your_api_key"
 export INTERVALS_ATHLETE_ID="iXXXXX"
 
+# Set skill directory for local installs
+SKILLS_DIR="<path-to-your-skills-dir>"
+
 # Use the API helper
-~/.claude/skills/intervals-icu/scripts/api.sh wellness today
-~/.claude/skills/intervals-icu/scripts/api.sh activities 2024-01-01 2024-01-31
+"$SKILLS_DIR/intervals-icu/scripts/api.sh" wellness today
+"$SKILLS_DIR/intervals-icu/scripts/api.sh" activities 2024-01-01 2024-01-31
 ```
 
 ## Authentication
@@ -94,19 +93,19 @@ Use `scripts/api.sh` to handle authentication and common operations:
 
 ```bash
 # Get today's wellness
-~/.claude/skills/intervals-icu/scripts/api.sh wellness
+"$SKILLS_DIR/intervals-icu/scripts/api.sh" wellness
 
 # Get wellness for specific date
-~/.claude/skills/intervals-icu/scripts/api.sh wellness 2024-01-15
+"$SKILLS_DIR/intervals-icu/scripts/api.sh" wellness 2024-01-15
 
 # Update wellness (weight and sleep)
-~/.claude/skills/intervals-icu/scripts/api.sh wellness-update 2024-01-15 '{"weight": 72.5, "sleepSecs": 28800}'
+"$SKILLS_DIR/intervals-icu/scripts/api.sh" wellness-update 2024-01-15 '{"weight": 72.5, "sleepSecs": 28800}'
 
 # Get last month's activities
-~/.claude/skills/intervals-icu/scripts/api.sh activities 2024-01-01 2024-01-31
+"$SKILLS_DIR/intervals-icu/scripts/api.sh" activities 2024-01-01 2024-01-31
 
 # Export activities as CSV
-~/.claude/skills/intervals-icu/scripts/api.sh activities 2024-01-01 2024-01-31 csv > activities.csv
+"$SKILLS_DIR/intervals-icu/scripts/api.sh" activities 2024-01-01 2024-01-31 csv > activities.csv
 ```
 
 ## Direct curl Examples
@@ -170,8 +169,8 @@ Use both skills together:
 
 1. **Fetch data** with intervals-icu skill:
    ```bash
-   ~/.claude/skills/intervals-icu/scripts/api.sh wellness-range 2024-01-01 2024-01-31 > wellness.json
-   ~/.claude/skills/intervals-icu/scripts/api.sh activities 2024-01-01 2024-01-31 > activities.json
+   "$SKILLS_DIR/intervals-icu/scripts/api.sh" wellness-range 2024-01-01 2024-01-31 > wellness.json
+   "$SKILLS_DIR/intervals-icu/scripts/api.sh" activities 2024-01-01 2024-01-31 > activities.json
    ```
 
 2. **Analyze** with cycling-training skill:
@@ -182,7 +181,7 @@ Use both skills together:
 
 3. **Update wellness** after morning check-in:
    ```bash
-   ~/.claude/skills/intervals-icu/scripts/api.sh wellness-update today '{"weight": 72.5, "sleepSecs": 28800, "readiness": 4}'
+   "$SKILLS_DIR/intervals-icu/scripts/api.sh" wellness-update today '{"weight": 72.5, "sleepSecs": 28800, "readiness": 4}'
    ```
 
 ## End-to-End Workflow Example
@@ -195,7 +194,7 @@ You wake up, check HRV, and want to adjust today's planned workout based on reco
 ### Step 1: Fetch morning wellness data
 ```bash
 # Get today's wellness (HRV from device sync)
-WELLNESS=$(~/.claude/skills/intervals-icu/scripts/api.sh wellness today)
+WELLNESS=$("$SKILLS_DIR/intervals-icu/scripts/api.sh" wellness today)
 echo "$WELLNESS" | jq '{hrv, restingHR, sleepSecs, ctl, atl}'
 ```
 
@@ -224,11 +223,11 @@ Based on the data:
 ```bash
 # Find today's planned workout
 TODAY=$(date +%Y-%m-%d)
-EVENTS=$(~/.claude/skills/intervals-icu/scripts/api.sh events $TODAY $TODAY)
+EVENTS=$("$SKILLS_DIR/intervals-icu/scripts/api.sh" events $TODAY $TODAY)
 EVENT_ID=$(echo "$EVENTS" | jq -r '.[0].id')
 
 # Update to easier workout
-~/.claude/skills/intervals-icu/scripts/api.sh event-update "$EVENT_ID" '{
+"$SKILLS_DIR/intervals-icu/scripts/api.sh" event-update "$EVENT_ID" '{
   "name": "Recovery Ride (HRV adjusted)",
   "description": "Original: Threshold intervals. Adjusted due to low HRV (-15% from baseline).",
   "icu_training_load": 40
@@ -238,7 +237,7 @@ EVENT_ID=$(echo "$EVENTS" | jq -r '.[0].id')
 ### Step 4: Log subjective wellness
 
 ```bash
-~/.claude/skills/intervals-icu/scripts/api.sh wellness-update today '{
+"$SKILLS_DIR/intervals-icu/scripts/api.sh" wellness-update today '{
   "readiness": 3,
   "fatigue": 3,
   "mood": 4,
@@ -264,7 +263,7 @@ Run the test suite:
 # Requires: bats-core
 # Install: brew install bats-core (macOS) or apt install bats (Linux)
 
-~/.claude/skills/intervals-icu/tests/run_tests.sh
+"$SKILLS_DIR/intervals-icu/tests/run_tests.sh"
 ```
 
 Tests verify:
@@ -295,7 +294,7 @@ Enable verbose output for debugging:
 ```bash
 # Show curl commands
 export INTERVALS_DEBUG=1
-~/.claude/skills/intervals-icu/scripts/api.sh wellness today
+"$SKILLS_DIR/intervals-icu/scripts/api.sh" wellness today
 ```
 
 ### Common Issues
@@ -321,30 +320,17 @@ export INTERVALS_DEBUG=1
 
 ### Undocumented Endpoints
 
-For endpoints not covered by api.sh, use Context7:
-
-```javascript
-// Find Intervals.icu docs
-mcp__plugin_context7_context7__resolve-library-id({
-  libraryName: "intervals.icu"
-})
-
-// Query specific endpoint
-mcp__plugin_context7_context7__query-docs({
-  libraryId: "/websites/intervals_icu_api_v1",
-  query: "how to create workout library entry"
-})
-```
+For endpoints not covered by `api.sh`, inspect the current Intervals.icu API documentation before adding a helper command. Prefer extending `scripts/api.sh` with a tested command over embedding one-off curl snippets in the skill body.
 
 ## Common Workflows
 
 ### Morning Wellness Check-in
 ```bash
 # Get HRV device data (if synced)
-~/.claude/skills/intervals-icu/scripts/api.sh wellness today
+"$SKILLS_DIR/intervals-icu/scripts/api.sh" wellness today
 
 # Update subjective metrics
-~/.claude/skills/intervals-icu/scripts/api.sh wellness-update today '{"readiness": 4, "mood": 4, "soreness": 2}'
+"$SKILLS_DIR/intervals-icu/scripts/api.sh" wellness-update today '{"readiness": 4, "mood": 4, "soreness": 2}'
 ```
 
 ### Weekly Training Review
@@ -353,14 +339,14 @@ mcp__plugin_context7_context7__query-docs({
 END=$(date +%Y-%m-%d)
 START=$(date -v-7d +%Y-%m-%d 2>/dev/null || date -d "7 days ago" +%Y-%m-%d)
 
-~/.claude/skills/intervals-icu/scripts/api.sh activities $START $END
-~/.claude/skills/intervals-icu/scripts/api.sh wellness-range $START $END
-~/.claude/skills/intervals-icu/scripts/api.sh fitness  # Current CTL/ATL/TSB
+"$SKILLS_DIR/intervals-icu/scripts/api.sh" activities $START $END
+"$SKILLS_DIR/intervals-icu/scripts/api.sh" wellness-range $START $END
+"$SKILLS_DIR/intervals-icu/scripts/api.sh" fitness  # Current CTL/ATL/TSB
 ```
 
 ### Export for Analysis
 ```bash
 # CSV export for spreadsheet analysis
-~/.claude/skills/intervals-icu/scripts/api.sh activities 2024-01-01 2024-12-31 csv > yearly_activities.csv
-~/.claude/skills/intervals-icu/scripts/api.sh wellness-range 2024-01-01 2024-12-31 csv > yearly_wellness.csv
+"$SKILLS_DIR/intervals-icu/scripts/api.sh" activities 2024-01-01 2024-12-31 csv > yearly_activities.csv
+"$SKILLS_DIR/intervals-icu/scripts/api.sh" wellness-range 2024-01-01 2024-12-31 csv > yearly_wellness.csv
 ```

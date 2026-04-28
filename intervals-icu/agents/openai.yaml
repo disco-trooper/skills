@@ -1,0 +1,4 @@
+interface:
+  display_name: "Intervals.icu API"
+  short_description: "Fetch and update Intervals.icu data"
+  default_prompt: "Use $intervals-icu to fetch my recent activities, wellness, and fitness metrics from Intervals.icu."

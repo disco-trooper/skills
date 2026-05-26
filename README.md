@@ -1,6 +1,6 @@
 # Skills
 
-Evidence-based training skills for AI agents.
+Personal skills for AI agents.
 
 ## Skills
 
@@ -9,6 +9,7 @@ Evidence-based training skills for AI agents.
 | [cycling-training](./cycling-training/) | Power zones, periodization, indoor training, nutrition for cyclists |
 | [hypertrophy-training](./hypertrophy-training/) | Volume, nutrition, exercises, recovery for muscle growth |
 | [intervals-icu](./intervals-icu/) | Intervals.icu API: wellness, activities, power curves, CTL/ATL/TSB |
+| [process-automation-audit](./process-automation-audit/) | Scope, price, and run audits for manual process automation |
 
 ## Install
 

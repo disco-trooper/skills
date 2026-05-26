@@ -1,0 +1,4 @@
+interface:
+  display_name: "Process Automation Audit"
+  short_description: "Audit manual business processes"
+  default_prompt: "Use $process-automation-audit to scope and price an automation audit for a manual business process."
